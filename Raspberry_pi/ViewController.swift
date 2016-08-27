@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        led("ON")
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func led(state: String){
+        let ref = FIRDatabase.database().reference()
+        let post : [String: AnyObject] = ["state": state]
+        ref.child("led").setValue(post)
+        
+        
+        
+    }
 
 }
 

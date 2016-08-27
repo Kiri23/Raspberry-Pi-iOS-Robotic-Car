@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20577805C0767D6ADF3DF898 /* Pods_Raspberry_pi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DFB84922B80E6E84361808 /* Pods_Raspberry_pi.framework */; };
 		2F29AFAB1D6D1357003479F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F29AFAA1D6D1357003479F2 /* AppDelegate.swift */; };
 		2F29AFAD1D6D1357003479F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F29AFAC1D6D1357003479F2 /* ViewController.swift */; };
 		2F29AFB01D6D1357003479F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F29AFAE1D6D1357003479F2 /* Main.storyboard */; };
 		2F29AFB21D6D1358003479F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F29AFB11D6D1358003479F2 /* Assets.xcassets */; };
 		2F29AFB51D6D1358003479F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F29AFB31D6D1358003479F2 /* LaunchScreen.storyboard */; };
+		2F29AFBD1D6D1496003479F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F29AFBC1D6D1496003479F2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09DFB84922B80E6E84361808 /* Pods_Raspberry_pi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Raspberry_pi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		137068267FEF5B5C8553753B /* Pods-Raspberry_pi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raspberry_pi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Raspberry_pi/Pods-Raspberry_pi.debug.xcconfig"; sourceTree = "<group>"; };
 		2F29AFA71D6D1356003479F2 /* Raspberry_pi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raspberry_pi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F29AFAA1D6D1357003479F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F29AFAC1D6D1357003479F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		2F29AFB11D6D1358003479F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F29AFB41D6D1358003479F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F29AFB61D6D1358003479F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F29AFBC1D6D1496003479F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B9E66D789E4BBE96E4516AF /* Pods-Raspberry_pi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raspberry_pi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Raspberry_pi/Pods-Raspberry_pi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20577805C0767D6ADF3DF898 /* Pods_Raspberry_pi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				2F29AFA91D6D1356003479F2 /* Raspberry_pi */,
 				2F29AFA81D6D1356003479F2 /* Products */,
+				3ECD29B5CD8A29DD80C4B762 /* Pods */,
+				E1F5EBBCBC87C00CAAC5D400 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				2F29AFB11D6D1358003479F2 /* Assets.xcassets */,
 				2F29AFB31D6D1358003479F2 /* LaunchScreen.storyboard */,
 				2F29AFB61D6D1358003479F2 /* Info.plist */,
+				2F29AFBC1D6D1496003479F2 /* GoogleService-Info.plist */,
 			);
 			path = Raspberry_pi;
+			sourceTree = "<group>";
+		};
+		3ECD29B5CD8A29DD80C4B762 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				137068267FEF5B5C8553753B /* Pods-Raspberry_pi.debug.xcconfig */,
+				7B9E66D789E4BBE96E4516AF /* Pods-Raspberry_pi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1F5EBBCBC87C00CAAC5D400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09DFB84922B80E6E84361808 /* Pods_Raspberry_pi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F29AFB91D6D1358003479F2 /* Build configuration list for PBXNativeTarget "Raspberry_pi" */;
 			buildPhases = (
+				154E9B4775516B00DD5143AC /* [CP] Check Pods Manifest.lock */,
 				2F29AFA31D6D1356003479F2 /* Sources */,
 				2F29AFA41D6D1356003479F2 /* Frameworks */,
 				2F29AFA51D6D1356003479F2 /* Resources */,
+				EF82CBC452D26B7FA91B3960 /* [CP] Embed Pods Frameworks */,
+				1C3F42BC94361406A5AFE0CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F29AFB51D6D1358003479F2 /* LaunchScreen.storyboard in Resources */,
+				2F29AFBD1D6D1496003479F2 /* GoogleService-Info.plist in Resources */,
 				2F29AFB21D6D1358003479F2 /* Assets.xcassets in Resources */,
 				2F29AFB01D6D1357003479F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154E9B4775516B00DD5143AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C3F42BC94361406A5AFE0CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Raspberry_pi/Pods-Raspberry_pi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF82CBC452D26B7FA91B3960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Raspberry_pi/Pods-Raspberry_pi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F29AFA31D6D1356003479F2 /* Sources */ = {
@@ -249,6 +328,7 @@
 		};
 		2F29AFBA1D6D1358003479F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137068267FEF5B5C8553753B /* Pods-Raspberry_pi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Raspberry_pi/Info.plist;
@@ -260,6 +340,7 @@
 		};
 		2F29AFBB1D6D1358003479F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9E66D789E4BBE96E4516AF /* Pods-Raspberry_pi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Raspberry_pi/Info.plist;
@@ -288,6 +369,7 @@
 				2F29AFBB1D6D1358003479F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
