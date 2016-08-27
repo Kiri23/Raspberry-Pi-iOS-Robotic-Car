@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     /**
-       Run or Stop the motor
+       Send an event to Firebase to run the motor foward or Stop the motor
        -author: 
         Christian Nogueras
        -parameters: 
